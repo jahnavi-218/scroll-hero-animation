@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Restaurant Menu</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            background-color: #222;
+            font-family: Georgia, serif;
+        }
+
+        .restaurant {
+            width: 900px;
+            margin: 30px auto;
+            padding: 30px;
+            background-color: #fffaf2;
+        }
+
+        /* Restaurant Header */
+
+        .restaurant-header {
+            width: 250px;
+            margin: auto;
+            padding: 10px;
+            text-align: center;
+            background-color: #d9825b;
+            border-radius: 15px;
+        }
+
+        .restaurant-header h3 {
+            margin: 0;
+        }
+
+        .restaurant-header h1 {
+            margin: 5px 0;
+            color: white;
+        }
+
+        /* Restaurant Information */
+
+        .restaurant-info {
+            text-align: center;
+        }
+
+        .restaurant-info h3 {
+            margin-bottom: 5px;
+        }
+
+        .restaurant-info p {
+            margin: 5px;
+        }
+
+        /* Menu */
+
+        .menu {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        /* Categories */
+
+        .category {
+            padding: 20px;
+            margin: 10px;
+            border: 3px solid;
+            border-radius: 15px;
+        }
+
+        .category h2 {
+            margin-top: 0;
+        }
+
+        .category p {
+            margin: 10px 0;
+        }
+
+        /* Category Background Colors */
+
+        .starters {
+            background-color: #edf5e9;
+            border-color: #c8b28a;
+        }
+
+        .main-course {
+            background-color: #dff3f7;
+            border-color: #9ac4c7;
+        }
+
+        .desserts {
+            background-color: #fff0d8;
+            border-color: #9bb9d9;
+        }
+
+        .beverages {
+            background-color: #fffbdc;
+            border-color: #d6d09b;
+        }
+
+
+        .offer {
+            width: 400px;
+            margin: 25px auto;
+            padding: 15px;
+            text-align: center;
+            background-color: #fff9e6;
+            border: 4px solid #a52a2a;
+            border-radius: 15px;
+        }
+
+        .offer h2 {
+            margin: 0;
+        }
+
+        .offer p {
+            margin: 5px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <div class="restaurant">
+
+
+        <div class="restaurant-header">
+
+            <h3>Restaurant Name</h3>
+
+            <h1>SPICE GARDEN</h1>
+
+        </div>
+
+
+        <!-- Address and Contact -->
+
+        <div class="restaurant-info">
+
+            <h3>Address</h3>
+
+            <p>123, Curry Lane, Bengaluru, 560001</p>
+
+            <p>
+                <b>Contact Number:</b>
+                +91 98765 43210
+            </p>
+
+        </div>
+
+
+
+        <div class="menu">
+
+
+
+            <div class="category starters">
+
+                <h2>STARTERS</h2>
+
+                <p>
+                    <b>Paneer Tikka</b> | ₹280
+                </p>
+
+                <p>
+                    <b>Aloo Chat</b> | ₹190
+                </p>
+
+                <p>
+                    <b>Veg Manchurian</b> | ₹250
+                </p>
+
+            </div>
+
+
+
+            <div class="category main-course">
+
+                <h2>MAIN COURSE</h2>
+
+                <p>
+                    <b>Butter Chicken</b> | ₹450
+                </p>
+
+                <p>
+                    <b>Shahi Paneer</b> | ₹380
+                </p>
+
+                <p>
+                    <b>Chicken Biryani</b> | ₹420
+                </p>
+
+            </div>
+
+
+
+            <div class="category desserts">
+
+                <h2>DESSERTS</h2>
+
+                <p>
+                    <b>Gulab Jamun</b> | ₹150
+                </p>
+
+                <p>
+                    <b>Rasmalai</b> | ₹180
+                </p>
+
+                <p>
+                    <b>Chocolate Brownie</b> | ₹210
+                </p>
+
+            </div>
+
+
+
+            <div class="category beverages">
+
+                <h2>BEVERAGES</h2>
+
+                <p>
+                    <b>Mango Lassi</b> | ₹120
+                </p>
+
+                <p>
+                    <b>Masala Chai</b> | ₹80
+                </p>
+
+                <p>
+                    <b>Fresh Lime Soda</b> | ₹100
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="offer">
+
+            <h2>Special Offer</h2>
+
+            <p>
+                Get 20% OFF on orders above ₹500
+            </p>
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
